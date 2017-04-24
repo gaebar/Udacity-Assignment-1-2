@@ -1,0 +1,56 @@
+/* This is a CSS comment */
+html {
+  background-image: url('img/cotton-fabric-panel-zebra-70-cm-x-140-cm.jpg');
+}
+body {
+    padding: 20px 10px;
+    max-width: 550px;
+    margin: 20px auto; /* the 0 refers to the top and bottom
+    margins and the "auto" automatically */
+    padding: 10px;
+    border: 1px solid black;
+
+    font-family:Helvetica;
+    font-size: 1.4em;
+    background-color: white;
+}
+h1 {
+  text-align: center;
+  color: #294860;
+}
+p {
+  margin: 20px 0;
+}
+ul{
+  list-style-type: none; /*this removes the bullets
+  that show up by default in unordered list */
+}
+
+section {
+  border: 1px solid blue;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+section p span {
+  color: darkred;
+}
+
+.emphasis {
+  font-weight: bold;
+}
+
+picture {
+  width: 100%;
+  display: block;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+}
+
+picture img {
+  display: block;
+  margin: auto;
+}
+pre {
+  background-color: lightgrey;
+}
