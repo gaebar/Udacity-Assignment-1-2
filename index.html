@@ -4,84 +4,91 @@
   <!--
     Hi, nice to meet you guys, it's a pleasure to start this course.
     I really love this way of writing to you in secret :-) -->
+  <meta charset="utf-8" />
   <title>Gaetano's Notes</title>
+  <meta name="description" content="Udacity Assigment 2 - Gaetano Barreca">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <section>
-    <h1>HTML-CSS-DOM</h1>
-    <p>In <a href="https://www.youtube.com/watch?v=tSv2KIF7uE4">this Udacity
-      video</a> <span style="color:darkred"><b>Jessica
-      Olman</b></span> does a fantastic demonstration about this differences.</p>
-     <div>
-       <picture>
-              <img src="img/jessica-and-cameron.jpg" width="300"
-              alt="Jessica Olman and Cameron Pittman">
-       </picture>
-     </div>
-    <p><b>HTML</b></p>
-    <p> - <em>HyperText Markup Language</em> - the standard markup
-      language used to create web pages.<br><br>More information on
-      <a href="https://www.w3schools.com/html/html_intro.asp">W3schools.com</a>.</p>
+  <div>
+    <section class="container">
+      <h1 class="bigheaders">HTML-CSS-DOM</h1>
+      <p>In <a href="https://www.youtube.com/watch?v=tSv2KIF7uE4">this Udacity
+        video</a> <span style="color:darkred"><b>Jessica
+        Olman</b></span> does a fantastic demonstration about this differences.</p>
+       <div>
+         <picture>
+                <img src="img/jessica-and-cameron.jpg" width="300"
+                alt="Jessica Olman and Cameron Pittman">
+         </picture>
+       </div>
+      <h2>HTML</h2>
+      <!--I have a question for you. If I wanted to use h3 instead of h2
+      because the charater is smaller, could I use h1 and h3 without
+      passing to h2. or not? -->
+      <p class="description"> - <em>HyperText Markup Language</em> - the standard markup
+        language used to create web pages.<br><br>More information on
+        <a href="https://www.w3schools.com/html/html_intro.asp" alt="W3 School website">W3schools.com</a>.</p>
 
-    <p><b>CSS</b></p>
-    <p> - <em> Cascading Style Sheets </em> - style sheet language used for
-      describing the look and formatting of a document written in a markup
-      language. <br><br>More information on
-      <a href="https://www.w3schools.com/css/css_intro.asp">W3schools.com</a>. </p>
+      <h2>CSS</h2>
+      <p class="description"> - <em> Cascading Style Sheets </em> - style sheet language used for
+        describing the look and formatting of a document written in a markup
+        language. <br><br>More information on
+        <a href="https://www.w3schools.com/css/css_intro.asp">W3schools.com</a>. </p>
 
-    <p><b>DOM</b></p>
-    <p> - <em>Document Object Model </em> - a cross-platform and
-      language-independent convention for representing and interacting
-      with objects in HTML (and other markup languages). The nodes of every
-      document are organized in a tree structure, called the <b>DOM tree.</b></p>
-    <div>
-      <picture>
-        <img src="https://www.w3schools.com/js/pic_htmltree.gif"
-          alt="Dome Tree Image" style="width:348px;height:228px;">
-      </picture>
-      <p>More information on
-      <a href="https://www.w3schools.com/js/js_htmldom.asp">W3schools.com</a>.</p>
-    </div>
-  </section>
-  <section>
-    <h1>PERSONAL NOTE - something to remember</h1>
-    <b>ATOM</b>
-    <p>Open your <em>HTML</em> file.<br>
-    Preview your <em>HTML</em> by typing on the keyboard:
-    <b>control + shift + H. </b></p>
-    <b> PLAYGROUND</b>
-    <p>First failer and exercise with
-      <a href="https://jsfiddle.net/gaebar/ageeda5z/8/">my Playground!</a></p>
-      <!--I used the Playground program just ones, then I decided to work only
-      with Atom.-->
-  </section>
-  <section>
-    <h1><b>CSS Summary and Reference</b></h1>
-      <h2>How does CSS "control" HTML?</h2>
-    <p>If you want to write CSS that makes all h1 elements have a
-      black background and white text, you would write:</p>
-      <pre>
-        <code>
-          h1 {
-            background-color : black;
-            color: white;
-          }
-        </code>
-      </pre>
-    <p>In this example, the <span class="emphasis">h1</span> is a selector.
-    It says to the browser
-    "I want you to apply the rules I'm about to tell you to every h1 element."
-    </p>
-    <p>After the <span class="emphasis">h1</span> there is a left curly
-    brace <span>{</span> and at the bottom there is a matching
-      right curly brace }. Everything between these curly braces will be interpreted
-      as a "rule" that should be applied to every <span class="emphasis">h1</span>
-      element.</p>
-    <p>The line of code that says <span>background-color : black;</span>
-    is a <b>declaration</b>.   <span>background-color</span> is
-    a <b>property</b> and <span> black</span> is the <b>value</b>
-     of that property.</p>
-   </section>
+      <h2>DOM</h2>
+      <p class="description"> - <em>Document Object Model </em> - a cross-platform and
+        language-independent convention for representing and interacting
+        with objects in HTML (and other markup languages). The nodes of every
+        document are organized in a tree structure, called the <b>DOM tree.</b></p>
+      <div>
+        <picture>
+          <img src="https://www.w3schools.com/js/pic_htmltree.gif"
+            alt="Dome Tree Image" style="width:348px;height:228px;">
+        </picture>
+        <p>More information on
+        <a href="https://www.w3schools.com/js/js_htmldom.asp">W3schools.com</a>.</p>
+      </div>
+    </section>
+    <section class="container">
+      <h1 class="bigheaders">PERSONAL NOTE - something to remember</h1>
+      <h2>ATOM</h2>
+      <p class="description">Open your <em>HTML</em> file.<br>
+      Preview your <em>HTML</em> by typing on the keyboard:
+      <b>control + shift + H. </b></p>
+      <h2> PLAYGROUND</h2>
+      <p class="description">First failer and exercise with
+        <a href="https://jsfiddle.net/gaebar/ageeda5z/8/">my Playground!</a></p>
+        <!--I used the Playground program just ones, then I decided to work only
+        with Atom.-->
+    </section>
+    <section class="container">
+      <h1 class="bigheaders"><b>CSS Summary and Reference</b></h1>
+        <h2>How does CSS "control" HTML?</h2>
+      <p class="description">If you want to write CSS that makes all h1 elements have a
+        black background and white text, you would write:</p>
+        <pre>
+          <code>
+            h1 {
+              background-color : black;
+              color: white;
+            }
+          </code>
+        </pre>
+      <p class="description">In this example, the <span class="emphasis">h1</span> is a selector.
+      It says to the browser
+      "I want you to apply the rules I'm about to tell you to every h1 element."
+      </p>
+      <p class="description">After the <span class="emphasis">h1</span> there is a left curly
+      brace <span>{</span> and at the bottom there is a matching
+        right curly brace }. Everything between these curly braces will be interpreted
+        as a "rule" that should be applied to every <span class="emphasis">h1</span>
+        element.</p>
+      <p class="description">The line of code that says <span>background-color : black;</span>
+      is a <b>declaration</b>.   <span>background-color</span> is
+      a <b>property</b> and <span> black</span> is the <b>value</b>
+       of that property.</p>
+     </section>
+  </div>
 </body>
 </html>

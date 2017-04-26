@@ -14,19 +14,22 @@ body {
     font-size: 1.4em;
     background-color: white;
 }
-h1 {
+.bigheaders {
   text-align: center;
   color: #294860;
 }
 p {
   margin: 20px 0;
 }
+h3 {
+	margin: 10px;
+}
 ul{
   list-style-type: none; /*this removes the bullets
   that show up by default in unordered list */
 }
 
-section {
+.container {
   border: 1px solid blue;
   padding: 10px;
   margin-bottom: 10px;
